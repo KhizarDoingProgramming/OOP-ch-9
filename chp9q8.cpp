@@ -72,7 +72,7 @@ public:
 };
 
 int main() {
-    Pstring2 s1("Joyeux Noel!");
+    Pstring2 s1("Mustafa Khizar!");
     cout << "s1 = ";
     s1.display();
 
@@ -81,17 +81,17 @@ int main() {
     Pstring2 s3;
     
     s3.left(s1, 8);
-    s3.display(); // Joyeux 
+    s3.display(); 
 
     cout << endl;
 
     s3.mid(s1, 4, 4);
-    s3.display(); // eux 
+    s3.display(); 
 
     cout << endl;
 
     s3.right(s1, 7);
-    s3.display(); // uel!
+    s3.display();
 
     cout << endl;
     return 0;
